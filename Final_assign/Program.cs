@@ -36,6 +36,7 @@ namespace Package_Express
                     Console.WriteLine("The Shipping fee that you should pay is:");
 
                     int ShippingFee = Convert.ToInt32(packWiedht) * Convert.ToInt32(packHieght) * Convert.ToInt32(packLenth) * Convert.ToInt32(packWieght) / 100;
+                    Console.WriteLine(ShippingFee);
 
 
                 }
